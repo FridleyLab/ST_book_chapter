@@ -4,12 +4,12 @@
 ## panels G and H of Figure 8, which were created with the accompanying Pthong script).
 ## The code assumes this script is located within the following directory tree:
 ## 
-## ./primer_spatial_transcriptomics
+## ./ST_book_chapter
 ## │
 ## ├── code/
 ## │   ├── chapter_figures_final.R
 ## │   └── chapter_figures_python_final.py
-## ├── figures.md
+## ├── figures
 ## └── data
 ##
 ## Working directory set to `./primer_spatial_transcriptomics/code`
