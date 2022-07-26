@@ -4,13 +4,13 @@
 ## It also assumes that the data used in the R script `chapter_figures_final.R` has been placed in the `data` subfolder.
 ## The code assumes this script is located within the following directory tree:
 ##
-## ./ST_book_chapter
+## ./ST_book_chapter/
 ## │
 ## ├── code/
 ## │   ├── chapter_figures_final.R
 ## │   └── chapter_figures_python_final.py
-## ├── figures
-## └── data
+## ├── figures/
+## └── data/
 ##
 ## Working directory set to `./primer_spatial_transcriptomics/code`
 ##

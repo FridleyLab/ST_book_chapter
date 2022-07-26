@@ -4,13 +4,13 @@
 ## panels G and H of Figure 8, which were created with the accompanying Pthong script).
 ## The code assumes this script is located within the following directory tree:
 ## 
-## ./ST_book_chapter
+## ./ST_book_chapter/
 ## │
 ## ├── code/
 ## │   ├── chapter_figures_final.R
 ## │   └── chapter_figures_python_final.py
-## ├── figures
-## └── data
+## ├── figures/
+## └── data/
 ##
 ## Working directory set to `./primer_spatial_transcriptomics/code`
 ##
@@ -74,7 +74,7 @@ ggplot(df_methods, aes(x=year_pub, y=n, fill=method)) +
 
 
 ## Figure 3 --------------------------------------------------------------------
-# Data from 10X Genomics (Breast Cancer: Ductal Carcinoma In Situ, Invasive Carcinoma (Block A Section 2)
+# Data from 10X Genomics [Human Breast Cancer (Block A Section 2); Space Ranger 1.1.0]
 # Download and place in `data` folder located within working directory
 bc_visium = Load10X_Spatial('../data/Breast_Cancer_Ductal_Carcinoma_10XGenomics/', filename='V1_Breast_Cancer_Block_A_Section_2_filtered_feature_bc_matrix.h5')
 
