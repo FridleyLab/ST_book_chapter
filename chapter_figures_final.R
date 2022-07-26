@@ -199,6 +199,7 @@ Heatmap(hm_mtx, cluster_columns=T, cluster_rows=T, show_column_names=F, show_row
 # dev.off()
 rm(roi_meta, roi_counts) # Clean environment
 
+
 ## Figure 8 --------------------------------------------------------------------
 # Run the Louvain clustering workflow from Seurat
 bc_visium_SCT = RunPCA(bc_visium_SCT, assay="SCT", verbose=F) %>% # Reduce dimentionality via PCA
@@ -303,6 +304,7 @@ cluster_p[['bayesspaceEnh']] = ggplot(df_clusters_enh, aes(x=imagecol, y=imagero
 ggarrange(plotlist=cluster_p, ncol=2, nrow=4,  align='hv', labels='AUTO')
 # ggsave('../figures/figure_8.pdf', width=5)
 rm(bc_visium_spGE, bc_visium_BSP, bc_visium_BSP_enhanced) # Clean environment
+
 
 ## Figure 9 --------------------------------------------------------------------
 # Code based on SPOTlight tutorial developed by the algorithm's authors
