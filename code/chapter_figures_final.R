@@ -30,8 +30,6 @@ library('preprocessCore')
 library('msigdbr')
 library('ComplexHeatmap')
 library('BayesSpace')
-#library('R.utils')
-#library('hdf5r')
 
 
 ## Figure 1 --------------------------------------------------------------------
