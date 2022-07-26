@@ -1,6 +1,7 @@
 ### CHAPTER: A PRIMER ON PRE-PROCESSING, VISUALIZATION, CLUSTERING, AND PHENOTYPING OF BARCODE-BASED SPATIAL TRANSCRIPTOMICS DATA
 ### FROM: STATSITICAL GENOMICS
-## The following code was used to produce the figures in the chapter.
+## The following code was used to produce the figures in the chapter (with the exception of
+## panels G and H of Figure 8, which were created with the accompanying Pthong script).
 ## The code assumes this script is located within the following directory tree:
 ## 
 ## ./primer_spatial_transcriptomics
@@ -15,7 +16,7 @@
 ##
 
 
-## Load in Packages Needed -----------------------------------------------------
+## Load in packages needed -----------------------------------------------------
 # RandomFields pulled from cran - install from github devtools::install_github("cran/RandomFields")
 library('tidyverse')
 library('lubridate')
