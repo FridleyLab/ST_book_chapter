@@ -6,7 +6,8 @@
 ## ./primer_spatial_transcriptomics
 ## │
 ## ├── code/
-## │   ├── chapter_figures.R
+## │   ├── chapter_figures_final.R
+## │   └── chapter_figures_python_final.py
 ## ├── figures.md
 ## └── data
 ##
